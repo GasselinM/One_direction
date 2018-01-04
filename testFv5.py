@@ -9,7 +9,7 @@ dsn_database = "postgres"            # e.g. "compose"
 dsn_hostname = "localhost" # e.g.: "aws-us-east-1-portal.4.dblayer.com"
 dsn_port = "5433"                 # e.g. 11101 
 dsn_uid = "postgres"        # e.g. "admin"
-dsn_pwd = "maxou999"      # e.g. "xxx"
+dsn_pwd = "polo_1111"      # e.g. "xxx"
 try:
     conn_string = "host="+dsn_hostname+" port="+dsn_port+" dbname="+dsn_database+" user="+dsn_uid+" password="+dsn_pwd
     print("Connecting to database\n  ->%s" % (conn_string))
